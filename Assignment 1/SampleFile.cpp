@@ -1,3 +1,5 @@
+// DISCLAIMER: This code was taken from "https://rosettacode.org/wiki/Fast_Fourier_transform#C" and is solely used for testing purposes
+
 #include <stdio.h>
 #include <math.h>
 #include <complex.h>
