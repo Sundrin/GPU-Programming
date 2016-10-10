@@ -1,8 +1,8 @@
 output: main.o
-	g++ main.o -o output
+	gcc main.o -o output
 
-main.o: SampleFile.cpp
-	g++ -c SampleFile.cpp
+main.o: SampleFile.c
+	gcc -c SampleFile.c
 
 clean:
 	rm *.o output
